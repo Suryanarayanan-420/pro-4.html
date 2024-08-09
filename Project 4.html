@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style>
+    header{
+        width: 100%;
+        height: 170px;
+        background-color: darkseagreen;
+    }
+    h2{
+        padding: 25px;
+        font-size: 30px;
+    }
+    nav{
+        margin-top: 50px;
+        width: 100%;
+        height: 800px;
+        background-color: thistle;
+    }
+    ul li{
+        height: 50px;
+        line-height: 50px;
+        list-style: none;
+        display: inline;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 30px;
+    }
+    ul li:hover{
+        color: darksalmon;
+        cursor: crosshair;
+    }
+</style>
+<body>
+    <header>
+        <div>
+            <h2>Event Management</h2>
+        </div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Event Page</li>
+                <li>Student Page</li>
+                <li>Overall</li>
+            </ul>
+        </nav>
+    </header>
+<div>
+    <label for="Number">Register Number</label><br>
+    <input type="register number" name="register number" id="register number" maxlength="12" size="100"><br>
+    <label for="name">Student Name</label><br>
+    <input type="name" name="name" id="name" size="100"><br>
+    <label for="department">Department</label><br>
+    <input type="department" name="department" id="department" size="100"><br>
+    <label for="year">Year</label><br>
+    <select name="year" id="year" style="width: 500px; height: 20px;">
+        <option>Choose an option</option>
+        <option value="I">I</option>
+        <option value="II">II</option>
+        <option value="III">III</option>
+        <option value="IV">IV</option>
+    </select><br>
+    <label for="event name">Event Name</label><br>
+    <select name="event name" id="event name" style="width: 500px; height: 20px;">
+        <option>Choose an option</option>
+        <option value="Symposium">Symposium</option>
+        <option value="Quiz">Quiz</option>
+        <option value="Fun Event">Fun Event</option>
+        <option value="games">Games</option>
+    </select><br>
+    <label for="event date">Event Date</label><br>
+    <input type="date" name="event date" id="event date" size="100"><br>
+    <label for="Amount">Amount</label><br>
+    <input type="Amount" name="Amount" id="Amount" size="100"><br>
+    <label for="status">Status</label><br>
+    <select name="status" id="status" style="width: 500px; height: 20px;">
+        <option>Choose an option</option>
+        <option value="paid">Paid</option>
+        <option value="notpaid">Not Paid</option>
+    </select><br>
+    <button type="submit">Submit</button> 
+</div>
+</body>
+</html>
